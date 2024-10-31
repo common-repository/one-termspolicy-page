@@ -1,0 +1,12 @@
+{
+    "name": "onemohsen/one-carmng",
+    "authors": [{
+        "name": "onemohsen",
+        "email": "onemohsen@gmail.com"
+    }],
+    "require": {},
+    "autoload": {
+        "psr-4": { "oneTermsPolicy\\": "./includes" }
+
+    }
+}

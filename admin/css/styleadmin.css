@@ -1,0 +1,103 @@
+/*option_page*/
+.nav-tab{
+    font-family: Tahoma;
+    font-size: 12px;
+    padding: 10px;
+
+}
+.onetermOptionHeader h1 , .oneInfoPage h1{
+    font-family: Tahoma;
+    font-size: 15px;
+    margin: 20px 0px;
+}
+.onetermoptionPage th,.Question th{
+    font-family: Tahoma;
+    font-size: 13px;
+    font-weight: normal;
+}
+.onetermoptionPage td ,.Question td{
+    padding: 5px 20px;
+}
+.onetermoptionPage input[type='text'],.Question input[type='text']{
+    font-family: Tahoma;
+    font-size: 13px;
+    padding: 10px 20px;
+    width: 100%;
+}
+.nav-tab:focus, .nav-tab:hover {
+    background-color: #fff;
+}
+
+#frm_option_page tr th, #frmQuestion tr th, #frmValidateOption tr th {
+    padding: 15px;
+    text-align: right;
+}
+
+#frm_option_page label.error {
+    color: red;
+}
+
+#frm_option_page td .error {
+    padding-right: 13px;
+}
+
+form p.responseSuccess {
+    color: green;
+}
+
+form p.responseError {
+    color: red;
+}
+
+/*Choice TermPolice Page*/
+.choiceTermsPolicy .boxTerm {
+    width: 29%;
+    height: 150px;
+    float: right;
+    margin: 10px;
+    background: #fdfdfd;
+    border: 1px solid #d3d6d8;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.choiceTermsPolicy .boxTerm:hover {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.35), 0 85px 180px 0 #fff, 0 12px 8px -5px rgba(193, 193, 193, 0.85);
+    border: 1px solid #008EC2;
+    background: none;
+
+    color: #0D47A1;
+}
+
+.boxTerm h2,.boxTerm p{
+    font-family: Tahoma;
+}
+
+/*Question Page*/
+.Question {
+    background: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px 0 0 0;
+}
+.Question td span{
+    padding-left: 15px;
+}
+/*Info Page*/
+.oneinfosec h3{
+    font-family: Tahoma;
+    font-weight: normal;
+}
+.oneinfosec{
+    padding: 20px;
+}
+.oneinfocontact{
+    padding: 5px;
+}
+
+/*Jq validate*/
+.error {
+    color: red;
+    padding-right: 10px;
+}
+
